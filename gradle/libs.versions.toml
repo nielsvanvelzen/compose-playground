@@ -3,6 +3,7 @@ android-plugin = "7.2.1"
 androidx-activity = "1.4.0"
 androidx-compose = "1.1.1"
 androidx-core = "1.7.0"
+androidx-navigation = "2.4.2"
 kotlin = "1.6.10"
 
 [plugins]
@@ -14,10 +15,12 @@ androidx-activity-compose = { module = "androidx.activity:activity-compose", ver
 androidx-compose-material = { module = "androidx.compose.material:material", version.ref = "androidx.compose" }
 androidx-compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "androidx.compose" }
 androidx-core = { module = "androidx.core:core-ktx", version.ref = "androidx-core" }
+androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "androidx-navigation" }
 
 [bundles]
 androidx-compose = [
     "androidx-activity-compose",
     "androidx-compose-material",
     "androidx-compose-ui-tooling",
+    "androidx-navigation-compose",
 ]
